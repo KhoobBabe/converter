@@ -22,7 +22,6 @@ def yard_to_m(y):
     return
 
 def end_program(y):
-    break
     print("exit the program")
 
 
@@ -39,6 +38,7 @@ def conv(x):
             yard_to_m(x)
         elif x==e:
             end_program(x)
+            break
 
 
 
